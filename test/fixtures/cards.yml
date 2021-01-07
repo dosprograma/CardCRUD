@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  idCard: 
+  Stripe: MyString
+  Number: 
+  Type_card: MyString
+  CSV: 
+  client: one
+
+two:
+  idCard: 
+  Stripe: MyString
+  Number: 
+  Type_card: MyString
+  CSV: 
+  client: two
