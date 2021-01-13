@@ -1,2 +1,17 @@
-<h1>Company#index</h1>
-<p>Find me in app/views/company/index.html.erb</p>
+<h1>New Company</h1>
+
+<%= form_with model: @company do |form| %>
+  <div>
+    <%= form.label :name %><br>
+    <%= form.text_field :name %>
+  </div>
+
+  <div>
+    <%= form.label :address %><br>
+    <%= form.text_area :address %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
